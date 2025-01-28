@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1738087398485,
@@ -28,6 +28,18 @@
                 {
                     "date": 1738087451193,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import Home from './component/home';\n function App() {\n   return (\n    <div>\n-    <homw\n+    <Home\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1738089545455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n import logo from './logo.svg';\n import './App.css';\n-import Home from './component/home';\n+\n function App() {\n   return (\n    <div>\n-    <Home\n+    <Home/>\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1738089551884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,24 @@\n import logo from './logo.svg';\n import './App.css';\n-\n+import Home from './component/home';\n function App() {\n   return (\n-   <div>\n-    <Home/>\n+    <div className=\"App\">\n+      <header className=\"App-header\">\n+        <img src={logo} className=\"App-logo\" alt=\"logo\" />\n+        <p>\n+          Edit <code>src/App.js</code> and save to reload.\n+        </p>\n+        <a\n+          className=\"App-link\"\n+          href=\"https://reactjs.org\"\n+          target=\"_blank\"\n+          rel=\"noopener noreferrer\"\n+        >\n+          Learn React\n+        </a>\n+      </header>\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1738089684742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import logo from './logo.svg';\n import './App.css';\n-import Home from './component/home';\n+\n function App() {\n   return (\n     <div className=\"App\">\n       <header className=\"App-header\">\n"
                 }
             ],
             "date": 1738087398485,
