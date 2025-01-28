@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 10,
             "patches": [
                 {
                     "date": 1738087367226,
@@ -32,6 +32,22 @@
                 {
                     "date": 1738088272627,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n \n const Home = () => {\n   return (\n     <div>\n-      <h1>he loo</h1>\n+      <h1>he loo\n+        kljdj;fij\n+      </h1>\n     </div>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1738099192638,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,1 @@\n-import React from 'react'\n-\n-const Home = () => {\n-  return (\n-    <div>\n-      <h1>he loo\n-        kljdj;fij\n-      </h1>\n-    </div>\n-  )\n-}\n-\n-export default Home\n+ra\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1738099204655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,11 @@\n-ra\n\\ No newline at end of file\n+import React from 'react'\n+\n+const ome = () => {\n+  return (\n+    <div>\n+      \n+    </div>\n+  )\n+}\n+\n+export default ome\n"
+                },
+                {
+                    "date": 1738099214157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n import React from 'react'\n \n-const ome = () => {\n+const Home = () => {\n   return (\n     <div>\n-      \n+      <h1\n     </div>\n   )\n }\n \n-export default ome\n+export default Home\n"
+                },
+                {
+                    "date": 1738099223074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const Home = () => {\n   return (\n     <div>\n-      <h1\n+      <h1>hello me</h1>\n     </div>\n   )\n }\n \n"
                 }
             ],
             "date": 1738087367226,
